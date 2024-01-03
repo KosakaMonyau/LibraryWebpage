@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logophoto {
+    margin-right: 20px;
+    margin-left: 35px;
+    margin-bottom: -10px;
+  }
+
+.logophoto img {
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+header {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 90px; 
+    left: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+}
+ul li a:hover{
+    color: #0a06ee;    
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.h2 {
+    color: #333;
+    text-align: center;
+    height: 100px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p{
+    color: #fff;
+    text-align: center;
+    text-align: justify;    
+}
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book {
+    width: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+.books{
+    background-image: url("/images/books.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-categories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categories{
+    text-decoration: none;
+    color: #333;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-basis: 20%;
+    background: grey;    
+}
+.categories h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: none;
+}
+
+.categories a:hover{
+    color: #0a06ee;    
+}
+
+.categories p {
+    margin-top: 10px;
+}
+
+.about {
+    margin-top: 150px;
+    font-size: large;
+}
+
+.about p {
+    text-align: justify;
+    color: black;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 10px;
+}
